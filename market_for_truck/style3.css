@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+   align-items: center;
+   padding: 10px;
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+}
+header h1{
+    color:orange;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 1em;
+
+}
+nav a:hover{
+    color: orange;
+}
+section h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 100px;
+    color: orange;
+    text-align: center;
+    font-weight: 2000;
+    font-size: 4em;
+}
+.deb i{
+    width: 2000;
+    color: orange;
+}
+.deb{
+
+    justify-content: space-between;
+    padding: 5px;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 3em;
+    padding-bottom:50px;
+    color: orange;
+    text-transform: uppercase;
+
+}
+.produit1{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    
+}
+.produit1 img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px gray;
+    transition: 0.7s ease;
+}
+.produit1 img:hover{
+    transform: scale(1.11);
+}
+.menmenu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}

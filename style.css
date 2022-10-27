@@ -1,0 +1,289 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Width and height apply to all parts of the element: content, padding and borders:*/
+}
+header{
+    background-color:black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    color:orange;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.nav a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 1em;
+    text-transform: uppercase;
+    padding-left: 10px;
+
+}
+.nav a:hover{
+    color: orange;
+}
+.main{
+    padding: 100px 200px;
+    align-items: center;
+}
+#tity{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.part1 h1 span{
+  margin-top: 5px;
+  color:orange ;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.part1 p{
+    margin: 5px;
+    padding-left: 180px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.icons{
+    text-align: center;
+    padding-top: 50px;
+}
+.icons a{
+    margin: 200px 10px;
+    color:orange;
+    font-size: 1.7em;
+}
+.icons a :hover{
+    color: black;
+}
+.servise{
+    color: orange;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 3px;
+    padding: 17px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.corp{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 60px;
+    margin-right: 50px;
+    
+}
+.ser1{
+    width:500px;
+    height: 500px;
+}
+.ser1 img{
+    width: 296px;
+    height: 264px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.info{
+    text-align: center;
+}
+.info h1{
+    color:orange;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+.info p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+
+.market{
+    color: orange;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.voiture{
+    width: 500px;
+    height: 500px;
+    transition: 0.7s ease;
+  
+}
+
+.voiture:hover{
+    transform: scale(1.1);
+}
+.voiture img{
+    width: 296px;
+    height: 264px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.titr{
+    color:black;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+a :hover{
+    color: orange;
+}
+
+form{
+    text-align: center;
+}
+button{
+    border: 0px solid black;
+    width: 55%;
+    padding: 12px;
+    margin: 20px;
+    background-color:orangered;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+
+    
+}
+button:hover{
+    background-color: wheat;
+}
+footer{
+    background-color: orange;
+}
+#ft{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+input{
+    border: 0px solid black;
+    width: 55%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    
+  
+}
+.infor p{
+    color:black;
+    font-size: 1em;
+    font-weight: 800;
+
+}
+.GSM {
+    color:white;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.email {
+    color:white;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.adrresse {
+    color:white;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.hr {
+    color:white;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.temp {
+    color:white;
+    font-size: 1em;
+    font-weight: 500;
+}
+.fin{
+    
+    display: flex;
+}
+.infor{
+    margin: 50px;
+}
+.loca{
+    margin: 20px;
+}
+h3{
+    color:white;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.loca img{
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+.commande{
+    width: 151px;
+    height: 68px;
+    background-color:orange;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 25px gray;
+    transition: 0.7s ease;
+
+}
+.commande:hover{
+    transform: scale(1.11);
+}
+.commande h3{
+    padding-top: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+   
+}
+
+
+.commande h3:hover{
+    color:black ;
+}
+.com{
+    display: flex;
+    justify-content: center;
+}

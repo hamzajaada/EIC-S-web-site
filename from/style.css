@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+   align-items: center;
+   padding: 10px;
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+}
+header h1{
+    color:orange;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 1em;
+
+}
+nav a:hover{
+    color: orange;
+}
+.main{
+    padding: 100px 200px;
+}
+.main h1{
+    color: orange;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 2000;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 50px;
+}
+.formulaire{
+    border: 1px solid;
+    display: flex;
+    justify-content:space-around;
+
+}
+.client{
+    margin: 10px;
+    
+}
+.client h2{
+    color: orange;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service{
+    margin: 10px;
+}
+.service h2{
+    color: orange;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 1,3em;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    box-shadow: 5px 5px 25px gray;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1em;
+    font-weight: 500;
+
+
+}
+button:hover{
+    background-color: wheat;
+}
+.etoile{
+    color: orange;
+}
+
